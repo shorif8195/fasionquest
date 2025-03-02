@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    margin: 0%;
+    padding: 0%;
+}
 .navbar{
     background-color: #1A187A;
     color: white;
@@ -157,6 +164,36 @@ padding: 4px 50px;
 .sale-text{
     margin: 50px auto;
 }
+footer{
+    background-color: #0E071B;
+    color: white;
+    
+}
+
+.footer-icons li{
+    list-style: none;
+    
+}
+.footer-icons li a i{
+    color: white;
+}
+.footer-links li{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: gainsboro;
+}
+footer .logo{
+    text-align: center;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
 @media only screen and (max-width:480px ){
     .carousel-caption{
         top: -3%;
@@ -202,6 +239,78 @@ padding: 4px 50px;
         
         
     }
+    .footer-icons{
+        margin-left: -50px;
+        padding: 20px auto;
+    }
     
         
+}
+
+@media  screen and (max-width: 768px) {
+    .carousel-caption{
+        top: 10%;
+        text-align: center;
+        display: block;
+    }
+    .carousel-item img {
+        position: relative;
+        top: 50%;
+        left: 20%;
+        width: 60%;
+        
+        
+        
+        
+       
+      
+    }
+    .carousel-item{
+        height: 90vh;
+        background-size: 100% 100%;
+    }
+    .top-items{
+        display: block;
+        width: 100%;
+    }
+    .top-items .item-1{
+        width:cover;
+    }
+    .img1{
+        width: 200px;
+        transform: translateX(100px);
+        
+        
+        
+       
+        
+    }
+    .img2{
+        width: 100%;
+        padding-right: 100px;
+
+        
+        
+    }
+    .footer-icons{
+        margin-left: -50px;
+        padding: 20px auto;
+    }
+    .brows_items{
+        display: block;
+        width: 100%;
+    }
+    .brows_items .b-item{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    footer .logo{
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    footer{
+        margin: 0 auto;
+    }
+    
 }
